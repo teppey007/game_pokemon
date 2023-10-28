@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='ja'>
+    <head>
+        <meta charset='UTF-8'>
+        <title>ポケモンhigh&lowゲーム</title>
+        <link rel='stylesheet' href='css/style.css'>
+  <!-- 見えない部分 -->
+<html>
+  <head>
+    
+  </head>
+  <!-- ↓ここから見える部分↓ -->
+  <body>
+  <!-- ↓この下に入力してね！↓ -->
+  
+  <div class="header">
+    <h1>　 ポケモンカードBattle</h1>
+
+  </div>
+
+  <div class="card-box">
+    <div class="card">
+      <img id="Card_img_Before" src="img/s_1.jpeg" width="150" height="200">
+    
+      <img id="Card_img_After" src="img/s_99.jpeg" width="150" height="200">
+    </div>
+
+    <div class="card-text">
+      <p id="Before">場にあるポケモンカードはピカチュー（ＨＰ４０）</p>
+      <p id="After">次のポケモンカードは場にあるカードよりＨＰが高いか低いか当ててみよう！</p>
+    </div>  
+
+    <div class="card-button">
+      <input type="button" value="ＨＰが高い" onclick="High_Low(1);"/>
+      <input type="button" value="ＨＰが低い" onclick="High_Low(0);"/>
+    </div>
+  
+  </div>
+
+  
+
+
+  <!-- ここまで！ -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script type='text/javascript' src='js/main.js'></script>
+ 
+  
+  </body>
+</html>
