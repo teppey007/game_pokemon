@@ -20,10 +20,7 @@
 
 
 body{
-  background-image: url(../img/images.jpeg); /* 背景の場所を指定する */
-  background-size: 400px 300px;                 /*背景画像のサイズ指定*/
-  background-position: 50% 100%;
-  background-attachment: fixed;
+  
   margin:30px auto;
   width: 500px;
   height: 500px;   
@@ -42,5 +39,28 @@ body{
   justify-content:space-between;
   margin-left: 30%;
   margin-right: 30%;
+}
+
+
+.ballgame {
+  margin-top: 50px;
+}
+
+#game_area{
+  width: 500px;
+  height: 500px;
+  background-color:lavender;
+  
+}
+
+#ball{
+  width: 80px;
+  height: 80px;
+  background-color:pink;
+  border-radius: 50%;
+  left: 0px;
+  top: 0px;
+  position:relative;
+  transition: left 2s, top 2s;
 }
 
