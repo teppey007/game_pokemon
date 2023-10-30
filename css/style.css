@@ -24,7 +24,7 @@ body{
   margin:30px auto;
   width: 500px;
   height: 500px;   
-  background-repeat:no-repeat;/*背景画像の繰り返しを止める*/
+  
 }
 
 .card {

@@ -26,29 +26,41 @@
     </div>
 
     <div class="card-text">
-      <p id="Before">場にあるポケモンカードはピカチュー（ＨＰ４０）</p>
+      <p id="Before">場にあるポケモンカードは「ピカチュー」HP40</p>
       <p id="After">次のポケモンカードは場にあるカードよりＨＰが高いか低いか当ててみよう！</p>
     </div>  
 
     <div class="card-button">
       <input type="button" value="ＨＰが高い" onclick="High_Low(1);"/>
       <input type="button" value="ＨＰが低い" onclick="High_Low(0);"/>
+
+      <audio id="btn_audio">
+        <source src="./audio/btn_audio.mp3" type="audio/mp3"></source>
+      </audio>  
+      <audio id="btn_audio1">
+        <source src="./audio/btn_audio1.mp3" type="audio/mp3"></source>
+      </audio> 
+      <audio id="btn_audio2">
+        <source src="./audio/btn_audio2.mp3" type="audio/mp3"></source>
+      </audio> 
     </div>
   
   </div>
 
   <div class="ballgame">
-    <h2>ボールをクリックすると得点が入るよ！</h2>
+    <h3>モンスターボールをクリックすると得点が入るよ！</h3>
   </div>  
 
   <div id='game_area'>
     <img id='ball' src="../img/ball.jpeg"></img>
+    <audio id="btn_audio3">
+      <source src="./audio/btn_audio3.mp3" type="audio/mp3"></source>
+    </audio>  
   </div>
   
   <p>現在の得点：<span id='point'>0</span>点</p>
 
-
-
+  
 
   <!-- ここまで！ -->
   <script src="https://code.jquery.com/jquery-3.6.0.js"
